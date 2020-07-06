@@ -1,8 +1,5 @@
 <html>
 <head>
-<title>
-Mayank Raj
-</title>
 </head>
 <body>
 <p><h1>Bio</h1></p>
