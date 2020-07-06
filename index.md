@@ -5,7 +5,7 @@ Mayank Raj
 </title>
 </head>
 <body>
-<p><h1>Mayank Raj</h1></p>
-  <p>Welcome to my website. I am a senior undergraduate student at IIT Madras. Here you can know about my current research work and courses completed</p>
+<p><h1>Bio</h1></p>
+  <p>Mayank is a senior undergraduate student pursuing an integrated program (B.Tech. + M.Tech.) in mechanical engineering from IIT Madras. His masters specialisation is data science. Mayank is working at the conjunction of data science and coputational engineering.  </p>
 </body>
 </html>
