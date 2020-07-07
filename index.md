@@ -9,6 +9,5 @@
   <li><a href="/research.html"><p><h1>Research</h1></p></a></li>
   <li><a href="/blog.html"><p><h1>My blogs</h1></p></a></li>
 </ul> 
-  
 </body>
 </html>
