@@ -1,10 +1,5 @@
 <html>
 <head>
- <style>
-ul#menu li {
-  display:inline;
-}
-</style>
 </head>
 <body>
 <p><h1>Bio</h1></p>
