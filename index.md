@@ -6,11 +6,11 @@
 <ul>
   <li><a href="#home" class="active">Home</a></li>
   <li><a href="#Courses">Courses</a></li>
-  <li><a href="#contact">Research</a></li>
-  <li style="float:right"><a href="#about">Contact</a></li>
+  <li><a href="#Research">Research</a></li>
 </ul>
 <p><h1>Bio</h1></p>
-    <img src = "DP1.jpg">
-  <p>Mayank is a senior undergraduate student pursuing an integrated degree (B.Tech + M.Tech) from IIT Madras. He started with bachelors in mechanical engineering and later opted for interdisciplinary data science for his masters specialization. While at IIT Madras, Mayank did his two internships from RWTH Aachen University, Germany and TRDDC Pune, TCS. Currently, he is working at the intersection of data science and computational engineering. </p>
+<img src = "DP1.jpg">
+<p>Mayank is a senior undergraduate student pursuing an integrated degree (B.Tech + M.Tech) from IIT Madras. He started with bachelors in mechanical engineering and later opted for interdisciplinary data science for his masters specialization. While at IIT Madras, Mayank did his two internships from RWTH Aachen University, Germany and TRDDC Pune, TCS. Currently, he is working at the intersection of data science and computational engineering.
+</p>
 </body>
 </html>

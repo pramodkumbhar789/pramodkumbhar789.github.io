@@ -10,6 +10,12 @@ li {
   float: left;
 }
 
+ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
 li a {
   display: block;
   color: white;
