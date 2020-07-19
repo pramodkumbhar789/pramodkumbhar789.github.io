@@ -118,7 +118,7 @@ img {
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-width: 10px) {
+@media screen and (max-width: 10000px) {
   body {
     background-color: lightblue;
   }
