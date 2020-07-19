@@ -5,7 +5,7 @@
 <body>
 <ul>
   <li><a href="#home" class="active">Home</a></li>
-  <li><a href="#Courses">Courses</a></li>
+  <li><a href="courses.html">Courses</a></li>
   <li><a href="#Research">Research</a></li>
 </ul>
 <p><h1>Bio</h1></p>
@@ -14,7 +14,7 @@
 </p>
 <p><h1>Publications</h1></p>
 <ol>
-	<li> <b>M. Raj</b>, S.P. Patil, B. Markert Mechanical Properties of Nacre-Like Composites: A Bottom-Up Approach, Journal of Composites Science, Volume and Pages: 4, 35 (2020) </li>
+	<li> <b>M. Raj</b>, S.P. Patil, B. Markert Mechanical Properties of Nacre-Like Composites: A Bottom-Up Approach,Journal of Composites Science, Volume and Pages: 4, 35 (2020)</a> </li>
 </ol>
 </body>
 </html>
