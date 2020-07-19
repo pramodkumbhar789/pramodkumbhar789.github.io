@@ -5,7 +5,7 @@
 <body>
 <ul>
   <li><a href="#home" class="active">Home</a></li>
-  <li><a href="courses.html">Courses</a></li>
+  <li><a href="mathematics.html">Courses</a></li>
   <li><a href="#Research">Research</a></li>
 </ul>
 <p><h1>Bio</h1></p>
