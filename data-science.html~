@@ -28,13 +28,6 @@
 	</div>
 </div>
 
-<div class="container">
-	<button type="button" class="collapsible"><h3>Big Data Lab</h3></button>
-	<div class="content"><p>Dataflow, Dataproc, Google cloud functions, Apache Beam, Apache Spark, Batch processing, Stream processing
-	</div>
-	</button>
-</div>
-
 <script>
 var coll = document.getElementsByClassName("collapsible");
 var i;

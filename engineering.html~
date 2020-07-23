@@ -15,7 +15,7 @@
 </div>
 
 <!-- Page content -->
-<div class="main">
+
 <div class="container">
   <button type="button" class="collapsible"><h3>Design and optimisation of energy systems</h3></button>
   <div class="content"><p> Regression analysis and curve fitting, system simulation (successive substitution, Newton-Raphson method). Optimization Lagrange multipliers, search methods, linear programming, dynamic programming. New generation optimization techniques, simulated annealing, Genetic Algorithms. Introduction to inverse problems in thermal sciences.
@@ -34,7 +34,6 @@
 	<div class="content"><p> Deformation tensor</p>
 	</div>
 	</button>
-</div>
 </div>
 <script>
 var coll = document.getElementsByClassName("collapsible");
