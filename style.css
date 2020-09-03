@@ -1,11 +1,14 @@
 ul {
+  top-margin=100px;
   list-style-type: none;
-  padding: 0;
+  padding: 0px;
   overflow: hidden;
   background-color: #333;
   position: -webkit-sticky; /* Safari */
   position: sticky;
+
 }
+
 
 li {
   float: left;
@@ -88,7 +91,7 @@ img {
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 55px; /* Stay at the top */
-  left: 0px;
+  left: 8px;
   background-color: #333; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
