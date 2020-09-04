@@ -20,7 +20,6 @@
 
 title: Home
 description: This is the personal website of Mayank Raj, senior undergraduate at Indian Institute of Technology Madras.
-baseurl: "m-raj.github.io"
 # Build settings
 theme: minima
 plugins:
