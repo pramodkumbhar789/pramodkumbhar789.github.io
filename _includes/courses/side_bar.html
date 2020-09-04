@@ -1,0 +1,11 @@
+<div class="sidenav">
+	{% for any_page in site.pages %}
+	{% if any_page.path contains 'courses' %}
+		{% if any_page.title == {{page.title}} %}
+		<a href={{any_page.url}} class="active">{{any_page.title}}</a>
+		{% else %}
+		<a href={{any_page.url}} class="inactive">{{any_page.title}}</a>
+		{% endif %}
+	{% endif %}
+	{% endfor %}
+</div>

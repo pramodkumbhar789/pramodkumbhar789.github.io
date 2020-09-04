@@ -1,0 +1,12 @@
+<div class="main">
+    <ol>
+    {% for item in site.data.publications %}
+    <li>  {% for author in item.authors %}
+	    {% if author == 'M. Raj' %} <b>{{author}}</b>,
+	    {% elsif author == 'Mayank Raj' %} <b>{{author}}</b>,
+	    {% else %} {{author}},
+	    {% endif %}	  
+	    {% endfor %} {{item.title}}, <a href={{item.url}}> {{item.journal}}, Volume and Pages: {{item.volume}}, {{item.pages}} ({{item.year}}) </a> </li>
+    {% endfor %}
+    </ol>
+</div>

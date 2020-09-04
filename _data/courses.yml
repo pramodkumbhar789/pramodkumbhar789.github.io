@@ -1,0 +1,38 @@
+- title: Numerical Linear Algebra
+  domain: Mathematics
+  description: Floating point arithmetic, stability of algorithms, conditioning of a problem, perturbation analysis, algorithmic complexity, Matrix decomposition including LU, Cholesky, QR, SVD, Iterative techniques mainly focussing on Krylov subspace methods including Conjugate Gradient etc., Preconditioning, structured matrix computation
+- title: Probability and Statistics
+  domain: Mathematics
+  description: Probability models and axioms, conditioning and Bayes' rule, independence discrete random variables; probability mass functions; expectations, examples, multiple discrete random variables, joint PMFs, expectations, conditioning, independence, continuous random variables, probability density functions, expectations, examples, multiple continuous random variables, continuous Bayes rule, derived distributions; convolution; covariance and correlation, iterated expectations, sum of random variables, Markov process.
+
+- title: Computer Modelling and Simulation
+  domain: Mathematics
+  description: Spectral methods, Fourier transforms
+
+- title: Fundamentals of Deep Learning
+  domain: Data Science
+  description: Network Organization, Biological Neurons, Idea of computational units, Activation functions, Multi-layer Perceptrons, Convolutional Neural Networks, Convolution and pooling, Higher-level representations, Feature visualization. Training Algorithms, Loss Functions, Optimization, Stochastic Gradient Descent, Back-propagation, Initialization, Regularization, Update rules, Ensembles, Dropout, Batch Normalization. Advanced Architectures, Recurrent Neural Networks, RNN, and LSTM. Generative models, Restrictive Boltzmann Machines (RBMs), MCMC and Gibbs Sampling, Variational Auto-encoders, Generative Adversarial Networks.
+
+
+- title: Data Analytics Lab
+  domain: Data Science
+  description: Linear models, Linear regression (Ridge and Lasso), Linear classification, Linear Discriminant Analysis, Logistic Regression, Linear support vector machine, Kernel SVM, Random Forest, Neural Network, PCA, K-means clustering
+
+- title: Big Data Lab
+  domain: Data Science
+  description: Dataflow, Dataproc, Google cloud functions, Apache Beam, Apache Spark, Batch processing, Stream processing
+
+
+- title: Design and Optimisation of Energy Systems
+  domain: Engineering
+  description: Regression analysis and curve fitting, system simulation (successive substitution, Newton-Raphson method). Optimization Lagrange multipliers, search methods, linear programming, dynamic programming. New generation optimization techniques, simulated annealing, Genetic Algorithms. Introduction to inverse problems in thermal sciences.
+
+- title: Materials and Design
+  domain: Engineering
+  description: Crystal structure, Brittle and ductile failure theories, Fatigure failure theories
+
+- title: Solid mechanics
+  domain: Engineering
+  description: Deformation tensor
+
+

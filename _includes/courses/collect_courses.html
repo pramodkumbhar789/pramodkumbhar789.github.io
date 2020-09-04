@@ -1,0 +1,12 @@
+<div class="main">
+    {% for item in site.data.courses %}
+      {% if item.domain == page.domain %}
+      <div class="container">
+	<button type="button" class="collapsible"><h3>{{item.title}}</h3></button>
+        <div class="content">
+          <p>{{ item.description }}</p>
+        </div>
+      </div>
+      {% endif %}
+    {% endfor %}
+</div>
