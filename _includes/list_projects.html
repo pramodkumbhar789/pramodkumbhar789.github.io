@@ -1,0 +1,12 @@
+<div class="card-columns m-3 mt-5">
+    {% for item in site.data.projects %}
+    <div class="card">
+     <img src=/assets/img/{{item.image_src}} alt="Avatar">
+     <div class="container">
+       <h4><b>{{item.title}}</b></h4>
+    <p>{{item.description}}</p>
+    </div>
+    </div>
+<br>
+    {% endfor %}
+</div>
