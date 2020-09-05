@@ -16,16 +16,16 @@
 
 
 /* Add media queries for responsiveness. This will center both the text and the image inside the container */
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   .container {
-    text-align: center;
+    text-align: left;
   }
 }
 
 
 .sidenav {
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
+
   overflow-x: hidden; /* Disable horizontal scroll */
 }
 
@@ -38,16 +38,17 @@
 }
 
 .inactive {
- font-size: 20px
+ font-size: 120%;
 }
 
 .active {
+  color: green;
   font-size: 160%;
 }
 
 .active_course {
-  font-size: 120%;
-  backgroud-color: green;
+  font-size: 100%;
+  color: green;
 }
 
 /* Change color when the mosue hovers */
