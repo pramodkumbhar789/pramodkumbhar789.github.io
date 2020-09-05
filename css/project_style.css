@@ -34,6 +34,6 @@ img {
 @media only screen and (max-width: 600px){
 .grid-container{
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: auto;
 }
 }
