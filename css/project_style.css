@@ -25,15 +25,19 @@ img {
 	display: inline;
 }
 
-
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 .grid-container{
 	display: grid;
 	grid-template-columns: auto auto;
 }
 
-@media only screen and (max-width: 50px){
+}
+
+@media only screen and (max-width: 600px){
 .grid-container{
 	display: grid;
 	grid-template-columns: auto;
 }
 }
+
