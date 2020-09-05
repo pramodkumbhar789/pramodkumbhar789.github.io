@@ -1,5 +1,6 @@
-<div class="card-columns m-3 mt-5">
+<div class="grid-container">
     {% for item in site.data.projects %}
+    <div class="grid-item">
     <div class="card">
      <img src=/assets/img/{{item.image_src}} alt="Avatar">
      <div class="container">
@@ -7,6 +8,6 @@
     <p>{{item.description}}</p>
     </div>
     </div>
-<br>
+    </div>
     {% endfor %}
 </div>
