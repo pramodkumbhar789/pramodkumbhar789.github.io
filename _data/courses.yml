@@ -21,7 +21,7 @@
 
 - title: Big Data Lab
   domain: Data Science
-  description:"Batch and stream processing of data using pyspark dataproc cluster, streaming data through kafka and Pub/Sub, triggering google cloud functions, concepts of map-reduce and lazy evaluation."
+  description: "Batch and stream processing of data using pyspark dataproc cluster, streaming data through kafka and Pub/Sub, triggering google cloud functions, concepts of map-reduce and lazy evaluation."
 
 
 - title: Design and Optimisation of Energy Systems
