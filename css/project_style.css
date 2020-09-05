@@ -14,6 +14,8 @@
 /* Add some padding inside the card container */
 .container{
 	padding: 2px 16px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 img {
@@ -29,7 +31,7 @@ img {
 @media only screen and (min-width: 992px) {
 .grid-container{
 	display: grid;
-	grid-template-columns: auto;
+	grid-template-columns: auto auto;
 }
 
 }
@@ -37,7 +39,7 @@ img {
 @media only screen and (max-width: 600px){
 .grid-container{
 	display: grid;
-	grid-template-columns: auto;
+	grid-template-columns: auto auto;
 }
 }
 
