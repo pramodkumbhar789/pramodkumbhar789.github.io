@@ -1,9 +1,9 @@
 - title: "Restricted Boltzman Machine"
   url: ""
-  description: "Compression of black & white image datset using Restricted Boltzman Machine (RBM) architecture"
+  description: "Compression of black & white image dataset using binary-binary Restricted Boltzman Machine (RBM) architecture."
   image_src: RBM.png
 
 - title: "NetVLAD Aggregation"
   url: ""
-  description: NetVLAD along with CNN has been found to reduce the generalization error.
+  description: "NetVLAD along with CNN has been found to reduce the generalization error."
   image_src: netvlad.png
