@@ -1,9 +1,10 @@
 - title: Numerical Linear Algebra
   domain: Mathematics
-  description: Floating point arithmetic, stability of algorithms, conditioning of a problem, perturbation analysis, algorithmic complexity, Matrix decomposition including LU, Cholesky, QR, SVD, Iterative techniques mainly focussing on Krylov subspace methods including Conjugate Gradient etc., Preconditioning, structured matrix computation
+  description: "Floating point arithmetic, stability of algorithms, conditioning of a problem, perturbation analysis, algorithmic complexity, Matrix decomposition including LU, Cholesky, QR, SVD, Iterative techniques including Conjugate Gradient etc., Preconditioning, structured matrix computation."
+
 - title: Probability and Statistics
   domain: Mathematics
-  description: Probability models and axioms, conditioning and Bayes' rule, independence discrete random variables; probability mass functions; expectations, examples, multiple discrete random variables, joint PMFs, expectations, conditioning, independence, continuous random variables, probability density functions, expectations, examples, multiple continuous random variables, continuous Bayes rule, derived distributions; convolution; covariance and correlation, iterated expectations, sum of random variables, Markov process.
+  description: "Probability models and axioms, conditioning and Bayes' rule, independence discrete random variables; probability mass functions; expectations, examples, multiple discrete random variables, joint PMFs, expectations, conditioning, independence, continuous random variables, probability density functions, expectations, examples, multiple continuous random variables, continuous Bayes rule, derived distributions; convolution; covariance and correlation, iterated expectations, sum of random variables, Markov process."
 
 - title: Computer Modelling and Simulation
   domain: Mathematics
@@ -11,28 +12,23 @@
 
 - title: Fundamentals of Deep Learning
   domain: Data Science
-  description: Network Organization, Biological Neurons, Idea of computational units, Activation functions, Multi-layer Perceptrons, Convolutional Neural Networks, Convolution and pooling, Higher-level representations, Feature visualization. Training Algorithms, Loss Functions, Optimization, Stochastic Gradient Descent, Back-propagation, Initialization, Regularization, Update rules, Ensembles, Dropout, Batch Normalization. Advanced Architectures, Recurrent Neural Networks, RNN, and LSTM. Generative models, Restrictive Boltzmann Machines (RBMs), MCMC and Gibbs Sampling, Variational Auto-encoders, Generative Adversarial Networks.
+  description: "Fundamentals of neural network: network Organization, activation functions, multi-layer perceptrons. Understanding of training algorithms and loss functions: Stochastic Gradient Descent, Back-propagation. Implementing regularization methods such as ensembles, dropout, and batch normalization. Concepts of convolution neural network and pooling layers. Advanced rrchitectures, recurrent neural networks, generative models, restrictive boltzmann machines (RBMs), MCMC and gibbs sampling, variational auto-encoders, generative adversarial networks."
 
 
 - title: Data Analytics Lab
   domain: Data Science
-  description: Linear models, Linear regression (Ridge and Lasso), Linear classification, Linear Discriminant Analysis, Logistic Regression, Linear support vector machine, Kernel SVM, Random Forest, Neural Network, PCA, K-means clustering
+  description: "Implementation of traditional machine learning models namely linear regression (Ridge and Lasso), linear classification, linear discriminant analysis, logistic regression, linear support vector machine, kernel SVM, decision trees and random forest, principal component analysis, K-means clustering."
 
 - title: Big Data Lab
   domain: Data Science
-  description: Dataflow, Dataproc, Google cloud functions, Apache Beam, Apache Spark, Batch processing, Stream processing
+  description:"Batch and stream processing of data using pyspark dataproc cluster, streaming data through kafka and Pub/Sub, triggering google cloud functions, concepts of map-reduce and lazy evaluation."
 
 
 - title: Design and Optimisation of Energy Systems
   domain: Engineering
-  description: Regression analysis and curve fitting, system simulation (successive substitution, Newton-Raphson method). Optimization Lagrange multipliers, search methods, linear programming, dynamic programming. New generation optimization techniques, simulated annealing, Genetic Algorithms. Introduction to inverse problems in thermal sciences.
+  description: "Linear and non-linear regression analysis, system simulation (successive substitution, Newton-Raphson method), optimization using Lagrange multipliers, search methods, linear programming, dynamic programming. Concepts of new generation optimization techniques including simulated annealing, and Genetic Algorithms."
 
 - title: Materials and Design
   domain: Engineering
-  description: Crystal structure, Brittle and ductile failure theories, Fatigure failure theories
-
-- title: Solid mechanics
-  domain: Engineering
-  description: Deformation tensor
-
+  description: "Understanding of the correlation between the structure and properties of materials and successful designs. Imperpection is solids such as point, line, interfacial and volume defects. Dislocation strenghening mechanisms and slip systems. Strain-strain curves and mechanical properties of solids. Static and fatiuge failure theories for brittle and ductile materials. Concepts in fracture mechanics such as stress intensity factor and Griffith criterion."
 
