@@ -4,6 +4,7 @@
 	transition: 0.3s;
 	border-radius: 10%;
 	width: 90%;
+	margin-bottom: 20px;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -14,13 +15,13 @@
 /* Add some padding inside the card container */
 .container{
 	padding: 2px 16px;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	padding-top: 0px;
 }
 
 img {
 	width: 100%;
 	border-radius: 10%;
+	margin-bottom: 0px;
 }
 
 .tags li{
