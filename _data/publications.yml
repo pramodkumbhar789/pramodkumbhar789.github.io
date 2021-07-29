@@ -5,3 +5,7 @@
   pages: 35
   year: 2020
   url: "https://doi.org/10.3390/jcs4020035"
+
+- title: "Estimation of local strain fields in two-phase elastic composite materials using U-Net based deep learning"
+  authors: [Mayank Raj, Sanket Thakre, Ratna Kumar Annabattula, Anand K Kanjarla]
+  journal: Integrating Materials and Manufacturing Innovation
