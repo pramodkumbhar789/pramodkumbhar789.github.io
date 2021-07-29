@@ -1,5 +1,5 @@
 <div class="main">
-    <ol>
+    <ol reversed>
     {% for item in site.data.publications %}
     <li>  {% for author in item.authors %}
 	    {% if author == 'M. Raj' %} <b>{{author}}</b>,
