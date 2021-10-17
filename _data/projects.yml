@@ -1,5 +1,16 @@
-- title: "Physics Informed Neural Network"
+- title: "Physics Informed Neural Network (PINN)"
   url: "/pages/projects/pinn.html"
   description: "Solving differential equations by training neural networks in unsupervised manner"
   image_src: pinn_1d.png
+
+- title: "2D implementation of PINN"
+  url: "/pages/projects/pwh.html"
+  description: ""
+  image_src: pwh.png
+  
+- title: "Using PINN to solve elasticity equations with functionally graded properties"
+  url: "/pages/projects/pwh.html"
+  description: ""
+  image_src: fgm_2d.png
+
 
