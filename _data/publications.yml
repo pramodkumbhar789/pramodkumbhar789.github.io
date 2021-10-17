@@ -1,13 +1,5 @@
-- title: "Estimation of local strain fields in two-phase elastic composite materials using U-Net based deep learning"
-  authors: [Mayank Raj, Sanket Thakre, Ratna Kumar Annabattula, Anand K Kanjarla]
-  journal: Integrating Materials and Manufacturing Innovation
-  url: "https://link.springer.com/article/10.1007/s40192-021-00227-2"
+- title: "Title"
+  authors: [Author1, Author2]
+  journal: Journal Name
+  url:
 
-
-- title: "Mechanical properties of nacre-like composites: a bottom-up approach"
-  authors: [Mayank Raj, Sandeep P. Patil, Bernd Markert]
-  journal: Journal of Composites Science
-  volume: 4
-  pages: 35
-  year: 2020
-  url: "https://doi.org/10.3390/jcs4020035"
