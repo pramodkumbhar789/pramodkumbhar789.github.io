@@ -1,0 +1,82 @@
+/* Style the container with a rounded border, grey background and some padding and margin */
+.container {
+  border: 1px solid #ccc;
+  background-color: #eee;
+  border-radius: 8px;
+  padding: 0px 0px;
+  margin: 10px 0px;
+}
+
+/* Clear floats after containers */
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 650px) {
+  .container {
+    text-align: left;
+  }
+}
+
+
+.sidenav {
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+
+  overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 0px;
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+.inactive {
+ font-size: 120%;
+}
+
+.active {
+  color: green;
+  font-size: 160%;
+}
+
+.active_course {
+  font-size: 100%;
+  color: green;
+}
+
+/* Change color when the mosue hovers */
+.sidenav a:hover, .collapsible h3:hover{
+  color: green;
+}
+
+/* Style page content */
+.main {
+  margin-left: 155px; /* Same as the width of the sidebar */
+  padding: 2px 10px;
+}
+
+.collapsible {
+  background-color: #eee;
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  outline: none;
+  padding-top: 12px;
+  padding-bottom: -10px;
+
+}
+
+
+.content {
+  padding-left: 10px;
+  display: none;
+  overflow: hidden;
+  background-color: #eee;
+}
