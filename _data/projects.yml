@@ -1,3 +1,13 @@
+- title: "Physics Informed Neural Network"
+  url: "/pages/projects/pinn.html"
+  description: "Solving differential equations by training neural networks in unsupervised manner"
+  image_src: pinn_1d.png
+
+- title: "Stucture-Property Linkage"
+  url: "/pages/projects/structure_property_linkage.html"
+  description: "Estimation of local strain fields in two-phase elastic composite materials using U-Net based deep learning"
+  image_src: unet.png 
+
 - title: "Restricted Boltzman Machine"
   url: ""
   description: "Compression of black & white image dataset using binary-binary Restricted Boltzman Machine (RBM) architecture."

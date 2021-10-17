@@ -4,4 +4,10 @@
 
 layout: home
 ---
-Mayank is a senior undergraduate student pursuing an integrated degree (B.Tech + M.Tech) from IIT Madras. He started with bachelors in mechanical engineering and later opted for interdisciplinary data science for his masters specialization. While at IIT Madras, Mayank did his two internships from RWTH Aachen University, Germany and TRDDC Pune, TCS. Currently, he is working at the intersection of data science and computational engineering.
+Mayank is an integrated degree (B.Tech + M.Tech) graduate from Indian Institute
+of Technology (IIT) Madras. He started with bachelors in mechanical engineering
+and later opted for data science for his masters specialization.
+While at IIT Madras, Mayank did his two internships from RWTH Aachen University,
+Germany and Tata Research Development and Design Center, Pune. In his masters thesis,
+he worked at the intersection of deep learning and computational mechanics. He is currently
+a part of Enterprise Analytics and Data Science (EADS) team at Wells Fargo India.  

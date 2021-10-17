@@ -1,14 +1,17 @@
+- title: Applied Statistics
+  domain: Mathematics
+  description: Fundamentals of probability, parametric inference, maximul likelihood estimation, method of moments, parametric hypothesis testing, testing goodness of fit, Bayesian statistics, principle component analysis, genereralized linear models
 - title: Numerical Linear Algebra
   domain: Mathematics
   description: "Floating point arithmetic, stability of algorithms, conditioning of a problem, perturbation analysis, algorithmic complexity, Matrix decomposition including LU, Cholesky, QR, SVD, Iterative techniques including Conjugate Gradient etc., Preconditioning, structured matrix computation."
 
-- title: Probability and Statistics
+- title: Probability, Statistics and Stochastic Process
   domain: Mathematics
   description: "Probability models and axioms, conditioning and Bayes' rule, independence discrete random variables; probability mass functions; expectations, examples, multiple discrete random variables, joint PMFs, expectations, conditioning, independence, continuous random variables, probability density functions, expectations, examples, multiple continuous random variables, continuous Bayes rule, derived distributions; convolution; covariance and correlation, iterated expectations, sum of random variables, Markov process."
 
 - title: Computer Modelling and Simulation
   domain: Mathematics
-  description: Spectral methods, Fourier transforms
+  description: "Neumerical methods of solving differential equations: finite difference method, spectral method using Fourier transforms, Interpolation methods, Numerical methods for computing integral: Mid-point rule, Trapezoidal rule, Simpson's rule and Quadrature method, Statistical method to compute integration: Monte-Carlo simulations, Forward and backward Euler methods of solving transient equations, stability of Euler's methods"
 
 - title: Fundamentals of Deep Learning
   domain: Data Science
@@ -22,7 +25,6 @@
 - title: Big Data Lab
   domain: Data Science
   description: "Batch and stream processing of data using pyspark dataproc cluster, streaming data through kafka and Pub/Sub, triggering google cloud functions, concepts of map-reduce and lazy evaluation."
-
 
 - title: Design and Optimisation of Energy Systems
   domain: Engineering

@@ -1,12 +1,14 @@
 <div class="grid-container">
     {% for item in site.data.projects %}
     <div class="grid-item">
+    <a class="card-url" href={{item.url}}>
     <div class="card">
      <img src=/assets/img/{{item.image_src}} alt="Avatar">
      <div class="container">
        <h4><b>{{item.title}}</b></h4>
     <p>{{item.description}}</p>
     </div>
+    </a>
     </div>
     </div>
     {% endfor %}
