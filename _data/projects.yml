@@ -9,7 +9,7 @@
   image_src: pwh.png
   
 - title: "Using PINN to solve elasticity equations with functionally graded properties"
-  url: "/pages/projects/pwh.html"
+  url: "/pages/projects/fgm_2d.html"
   description: ""
   image_src: fgm_2d.png
 
