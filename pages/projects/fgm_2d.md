@@ -59,15 +59,15 @@ Comparision between displacement fields obtained from Abaqus and using PINN meth
 
 Comparision between stress fields obtained from Abaqus and using PINN method:
 <p align="center">
-  <img width=550mm src="/assets/img/neumann_s11_fgm.png">
+  <img width=550mm src="/assets/img/neumann_S11_fgm.png">
 </p>
 
 <p align="center">
-  <img width=550mm src="/assets/img/neumann_s22_fgm.png">
+  <img width=550mm src="/assets/img/neumann_S22_fgm.png">
 </p>
 
 <p align="center">
-  <img width=550mm src="/assets/img/neumann_s12_fgm.png">
+  <img width=550mm src="/assets/img/neumann_S12_fgm.png">
 </p>
 
 **Case II:**
@@ -99,13 +99,13 @@ Comparision between displacement fields obtained from Abaqus and using PINN meth
 
 Comparision between stress fields obtained from Abaqus and using PINN method:
 <p align="center">
-  <img width=550mm src="/assets/img/dirichlet_s11_fgm.png">
+  <img width=550mm src="/assets/img/dirichlet_S11_fgm.png">
 </p>
 
 <p align="center">
-  <img width=550mm src="/assets/img/dirichlet_s22_fgm.png">
+  <img width=550mm src="/assets/img/dirichlet_S22_fgm.png">
 </p>
 
 <p align="center">
-  <img width=550mm src="/assets/img/dirichlet_s12_fgm.png">
+  <img width=550mm src="/assets/img/dirichlet_S12_fgm.png">
 </p>
