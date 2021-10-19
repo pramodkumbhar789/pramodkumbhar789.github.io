@@ -2,10 +2,12 @@
 title: "Using physics informed neural network to predict strain in functionally graded material"
 exclude: true
 ---
+**Case I:**
+
 **Problem statement:** Let us consider a rectangular domain $$\Omega$$ as shown in the diagram below:
 
 <p align="center">
-  <img width=250mm src="/assets/img/fgm_2d.png">
+  <img width=250mm src="/assets/img/neumann_fgm_2d.png">
 </p>
 
 The bottom-left corner of the plate is fixed while the bottom edge is restricted to move in the $$x_2$$ direction.
@@ -13,7 +15,7 @@ The elasticiy of the plate is varying along $$x_2$$ direction and is given as:
 
 $$ E(x_1,x_2) = \dfrac{E_0}{1+x_2}$$
 
-A uniform load $$T$$ with dimension force per unit length is applied on the top boundry.
+A uniform traction $$T$$ is applied on the top boundry.
 
 **Neural network architecture:** Let us say that $$ \tilde{u} (\mathbf{x}):\mathcal{\Omega} \to \mathcal{R}^2$$ is the neural network model which maps 
 spatial coordinates vector $$\mathbf{x}$$ in domain $$\Omega$$ to a real valued vector in $$\mathcal{R}^2$$. $$\Omega$$ represents the set of points that consititute the plate while $$d\Omega$$ is the set of points on the boundary of the plate. 
@@ -41,19 +43,69 @@ where $$ w(\mathbf{x}_i)$$ and $$ w'(\mathbf{x}_i)$$ are weights for integration
 
 
 **Results:**
+Decrease in loss (internal strain energy - work done by external force) with epoch count as the PINN is trained:
+<p align="center">
+  <img width=350mm src="/assets/img/neumann_fgm_loss.png">
+</p>
+
+Comparision between displacement fields obtained from Abaqus and using PINN method:
+<p align="center">
+  <img width=550mm src="/assets/img/neumann_u1_fgm.png">
+</p>
 
 <p align="center">
-  <img width=350mm src="/assets/img/fgm_loss.png">
+  <img width=550mm src="/assets/img/neumann_u2_fgm.png">
+</p>
+
+Comparision between stress fields obtained from Abaqus and using PINN method:
+<p align="center">
+  <img width=550mm src="/assets/img/neumann_s11_fgm.png">
+</p>
+
+<p align="center">
+  <img width=550mm src="/assets/img/neumann_s22_fgm.png">
+</p>
+
+<p align="center">
+  <img width=550mm src="/assets/img/neumann_s12_fgm.png">
+</p>
+
+**Case II:**
+
+Let's consider the same domain and material properties with a different boundary condition. A uniform displacement 
+boundary condition is applied on the top edge as shown in the diagram below:
+
+<p align="center">
+  <img width=250mm src="/assets/img/dirichlet_fgm_2d.png">
+</p>
+
+**Results:**
+
+Decrease in loss (internal strain energy) with epoch count as the PINN is trained:
+<p align="center">
+  <img width=350mm src="/assets/img/dirichlet_fgm_loss.png">
+</p>
+
+Comparision between displacement fields obtained from Abaqus and using PINN method:
+
+<p align="center">
+  <img width=550mm src="/assets/img/dirichlet_u1_fgm.png">
 </p>
 
 
 <p align="center">
-  <img width=200mm src="/assets/img/u1_fgm.png">
-  <img width=200mm src="/assets/img/u2_fgm.png">
+  <img width=550mm src="/assets/img/dirichlet_u2_fgm.png">
+</p>
+
+Comparision between stress fields obtained from Abaqus and using PINN method:
+<p align="center">
+  <img width=550mm src="/assets/img/dirichlet_s11_fgm.png">
 </p>
 
 <p align="center">
-  <img width=200mm src="/assets/img/s11_fgm.png">
-  <img width=200mm src="/assets/img/s22_fgm.png">
-  <img width=200mm src="/assets/img/s12_fgm.png">
+  <img width=550mm src="/assets/img/dirichlet_s22_fgm.png">
+</p>
+
+<p align="center">
+  <img width=550mm src="/assets/img/dirichlet_s12_fgm.png">
 </p>
