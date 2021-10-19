@@ -79,6 +79,19 @@ boundary condition is applied on the top edge as shown in the diagram below:
   <img width=250mm src="/assets/img/dirichlet_fgm_2d.png">
 </p>
 
+**Implementing boundary conditions:**
+
+$$ u(\mathbf{x}) = \begin{bmatrix} u_1 \\ u_2 \end{bmatrix} = \begin{bmatrix} x_2 \\ x_2/3L + (3L-x_2)x_2\end{bmatrix} \odot \begin{bmatrix} \tilde{u}_1 \\ \tilde{u}_2 \end{bmatrix}$$
+
+**Loss function:**
+
+Since there is no traction in this case, the loss function will only have the internal strain energy component:
+
+$$ \mathcal{L} = \sum_{\mathbf{x}_i \in \Omega}{\dfrac{1}{2}w(\mathbf{x}_i)\varepsilon(\mathbf{x}_i):\mathrm{C}(\mathbf{x}_i):\varepsilon(\mathbf{x}_i)} $$
+
+where $$ w(\mathbf{x}_i)$$ and $$\mathrm{C}(\mathbf{x}_i) $$ are respectively the weight for integration over the domain and spatially varying stifness matrix.
+
+
 **Results:**
 
 Decrease in loss (internal strain energy) with epoch count as the PINN is trained:
