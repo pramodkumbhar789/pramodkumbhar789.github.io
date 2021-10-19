@@ -22,7 +22,7 @@ spatial coordinates vector $$\mathbf{x}$$ in domain $$\Omega$$ to a real valued 
 In order to ensure Dirchlet
 boundary conditions, the following transformation is applied:
 
-$$ u(\mathbf{x}) = \begin{bmatrix} u_1 \\ u_2 \end{bmatrix} = \begin{bmatrix} x_1 + x_2 \\ x_2\end{bmatrix} \odot \begin{bmatrix} \tilde{u}_1 \\ \tilde{u}_2 \end{bmatrix}$$
+$$ u(\mathbf{x}) = \begin{bmatrix} u_1 \\ u_2 \end{bmatrix} = \begin{bmatrix} x_2 \\ x_2\end{bmatrix} \odot \begin{bmatrix} \tilde{u}_1 \\ \tilde{u}_2 \end{bmatrix}$$
 
 where $$u(\mathbf{x})$$ gives displacement vector and $$\odot$$ represents Hadamard product.
 
